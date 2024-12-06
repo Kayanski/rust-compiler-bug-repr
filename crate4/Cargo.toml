@@ -1,6 +1,0 @@
-[workspace]
-members = ["./crate4"]
-
-
-[workspace.dependencies]
-crate1-1 = { path = "../crate1-1/crate1-1" }

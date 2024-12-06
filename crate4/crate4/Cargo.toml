@@ -1,9 +1,0 @@
-[package]
-name = "crate3"
-version = "0.1.0"
-edition = "2021"
-
-[lib]
-
-[dependencies]
-crate1-1 = { workspace = true, default-features = false }
