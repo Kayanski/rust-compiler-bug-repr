@@ -3,9 +3,13 @@ This is a reproduction of a bug related to features and building.
 I used workspaces because the bug cannot be reproduces with only crate folders
 
 Crate1 has a compile error on purpose.
-Crate2 includes crate1 as a dependency based on its `feature1` feature
-Crate3 and Crate4 both include Crate2 without features
-Crate3 include Crate2 with the `feature1` feature
+
+Crate2 includes crate1 as a dependency based on its `feature1` feature.
+
+Crate3 and Crate4 both include Crate2 without features.
+
+Crate3 include Crate2 with the `feature1` feature only inside dev-dependencies.
+
 
 
 
