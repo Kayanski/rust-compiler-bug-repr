@@ -1,0 +1,12 @@
+[package]
+name = "crate3"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[dependencies]
+crate2 = { path = "../../crate2/crate2" }
+
+[dev-dependencies]
+crate2 = { path = "../../crate2/crate2", features = ["feature1"] }
