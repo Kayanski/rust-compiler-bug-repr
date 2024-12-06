@@ -1,3 +1,3 @@
 pub fn include_func() {
-    "This is not supposed to work this"
+    "This is a compile error when activated"
 }

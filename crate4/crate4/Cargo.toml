@@ -6,4 +6,4 @@ edition = "2021"
 [lib]
 
 [dependencies]
-crate2 = { path = "../../crate2/crate2" }
+crate1-1 = { workspace = true, default-features = false }
